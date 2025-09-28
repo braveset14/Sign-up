@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: black;
+}
+#container{
+   
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    padding-bottom :70px; 
+}
+#part-1{
+   background: 
+                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80') 
+                no-repeat center center;
+    position: relative;
+    flex: 1.5;
+    flex-direction: column;
+    background-color:rgba(0,0,0,0.5);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 140px;
+   padding-bottom: 10px;
+   
+}
+
+ #logo img{
+    display: block;
+    margin-right: 8px;
+    width: 60px;
+    height: 80px;
+
+}
+#logo{
+    
+  align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    margin-top: 0px;
+  
+}
+@font-face {
+    font-family: "myFont";
+    src: url(Norse-Bold.otf);
+}
+
+h3{
+    font-family:"myFont" ;
+    font-size: 50px;
+}
+#footer{
+    color: white;
+    text-align: center;
+    padding-bottom: 0;
+}
+a{
+    color: white;
+}
+
+#part-2{
+    flex: 2;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    padding: 0 0;
+}
+#A{
+    flex: 1;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    padding-left:40px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+#B{
+     flex: 1;
+    padding-left: 40px;
+    background-color: white;
+}
+#C{
+     flex: 1;
+    padding-left: 40px;
+    background-color:whitesmoke ;
+    padding-bottom: 0;
+    
+}
