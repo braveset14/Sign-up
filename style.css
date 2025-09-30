@@ -15,6 +15,7 @@ body{
     height: 100vh;
     padding-top: 70px;
     padding-bottom :70px; 
+    
 }
 #part-1{
    background: 
@@ -89,6 +90,7 @@ a{
     padding-left:40px;
     padding-top: 60px;
     padding-bottom: 15git px;
+    font-weight: bold;
 }
 #B{
      flex: 1;
@@ -100,5 +102,35 @@ a{
     padding-left: 40px;
     background-color:whitesmoke ;
     padding-bottom: 0;
+    padding-top: 20px;
     
 }
+label{
+    display: block;
+    font-weight: 0;
+}
+input{
+    display: block;
+    font-size: large;
+}
+.name, .num, .pass{
+    display: flex;
+    gap: 100px;
+}
+input[type="password"]:invalid{
+     border: 1px solid red;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+button{
+  background-color: #596D48;
+  color: white;
+  border-radius: 8px;
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
